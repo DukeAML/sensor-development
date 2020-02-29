@@ -60,7 +60,6 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  delay(500);
   if (newData) {
      Serial.println("Got new data");
      newData = false;
